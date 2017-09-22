@@ -8,7 +8,13 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  background-color: rgb( 56,47,45);
+  color: rgb(235,51,0);
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 p {
@@ -16,14 +22,19 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+
 }
 
 .parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgb(255,255,255);
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
   .parallax-container .section {
     width: 100%;
@@ -54,4 +65,81 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+/*
+===================
+
+Custom Updates
+
+===================
+*/
+
+/* old browns color codes
+  brown: rgb(34, 21, 12);
+  orange: rgb(251, 79, 20);
+*/
+
+/* new browns color codes
+  brown:  rgb( 56,47,45);
+  orange: rgb(235,51,0);
+  white: rbg(255,255,255);
+*/
+
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+.nav-container {
+  background-color: rgb( 56,47,45);
+}
+
+.footer-container {
+  background-color: rgb(235,51,0);
+}
+
+.hero-h1 {
+  color: rgb(251, 79, 20);
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.flash {
+  color: lightgrey;
+  text-shadow:
+    -1px -1px 0 #EB3300,
+    1px -1px 0 #EB3300,
+    -1px 1px 0 #EB3300,
+    1px 1px 0 #EB3300;
+}
+
+.flash:hover {
+  color: gold;
+}
+
+.logo {
+  height: 20px;
+}
+
+.timer-container {
+  height: 30vh;
+}
+
+.timer-text {
+  color: white;
+  font-size: 2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.brown {
+  background-color: rgb( 56,47,45);
+}
+
+.orange {
+  background-color: rgb(251, 79, 20);
 }
